@@ -1,0 +1,300 @@
+body{
+  background-color:black;
+}
+.design
+{
+  margin-left: 8%;
+}
+.first{
+  background-color: rgb(42, 49, 44);
+}
+
+.navbar-brand:hover {
+  color: #62ff00;
+  text-shadow:0px 0px 20px #67ff02;
+}
+.items-1
+{
+  width: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.custom-carousel
+{
+  width: 83%;
+  position: relative;
+  left: 230px;
+  bottom: 232px;
+  /* height: 30%; */
+}
+.adjust{
+  height: 10%;
+  /* width: 83%; */
+}
+
+.carousel-item {
+  /* height: 100% !important; */
+  /* width:  100% !important; */
+  border: 1px solid red;
+}
+/* card_1 css */
+.container {
+  position: relative;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+ 
+  /* height: auto; */
+  width: 600px;
+  height: 400px;
+  margin-bottom: 10%;
+  margin-left: 1%;
+}
+
+
+
+.container {
+  position: relative;
+  width: 97.5%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* card 2 css */
+
+.container1 {
+  position: relative;
+  width: 94%;
+/*     
+   left: 48rem;
+  bottom: 26.5rem; */
+}
+
+.image1 {
+  /* display: block; */
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay1 {
+  height: 100%;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+/* footer */
+
+footer h2 {  
+  padding: 25px 0;  
+  text-align: center;  
+  color: #fff;  
+  background: #7c8490;  
+  }  
+  footer {  
+   background: #EFD567;  
+    color: white;  
+    /* margin-top:10px; */
+    /* padding-top:10px ; */
+  }  
+  .centerfresh h4{
+   padding-left: 24px;
+  }
+  col-sm-6 h4 {
+    padding-left: 024px;
+  }
+  footer a {  
+    color: rgb(0, 0, 0);  
+    font-size: 14px;  
+    transition-duration: 0.2s;  
+  }  
+  footer a:hover {  
+    color: #FA944B;  
+    text-decoration: none;  
+  }  
+  .copy {  
+    font-size: 12px;  
+    padding: 10px;  
+    border-top: 1px solid #000000;  
+    padding-left: 42%;
+padding-right: 42.5%;
+   text-align: center;
+  }  
+  .footer-middle {  
+    padding-top: 2em;  
+    color: rgb(0, 0, 0);  
+  }  
+  ul.social-network {  
+    list-style: none;  
+    display: inline;  
+    margin-left: 0 !important;  
+    padding: 0;  
+  }  
+  ul.social-network li {  
+    display: inline;  
+    margin: 0 5px;  
+  }  
+    
+  .social-network a.icoFacebook:hover {  
+    background-color: #3B5998;  
+  }  
+  .social-network a.icoLinkedin:hover {  
+     background-color: #007bb7;  
+  } 
+  .social-network a.icoinstagram:hover {  
+     background-color: #b70080;  
+  } 
+  .social-network a.icotwiter:hover {  
+     background-color: #00acee;  
+  } 
+  .social-network a.icoFacebook:hover i  
+  {  
+    color: #fff;  
+  }  
+  .social-network a.icoLinkedin:hover i {  
+    color: #fff;  
+  }  
+  .social-network a.icoinstagram:hover i {  
+    color: #fff;  
+  }  
+  .social-network a.icotwiter:hover i {  
+    color: #fff;  
+  }  
+  .social-network a.socialIcon:hover {  
+    color: #44BCDD;  
+  }  
+  .socialHoverClass {  
+    color: #44BCDD;  
+  }  
+  .social-circle li a {  
+    display: inline-block;  
+    position: relative;  
+    margin: 0 auto 0 auto;  
+    -moz-border-radius: 50%;  
+    -webkit-border-radius: 50%;  
+    border-radius: 50%;  
+    text-align: center;  
+    width: 30px;  
+    height: 30px;  
+    font-size: 15px;  
+  }  
+  .social-circle li i {  
+    margin: 0;  
+    line-height: 30px;  
+    text-align: center;  
+  }  
+  .social-circle li a:hover i  
+  {  
+    -moz-transform: rotate(360deg);  
+    -webkit-transform: rotate(360deg);  
+    -ms--transform: rotate(360deg);  
+    transform: rotate(360deg);  
+    -webkit-transition: all 0.2s;  
+    -moz-transition: all 0.2s;  
+    -o-transition: all 0.2s;  
+    -ms-transition: all 0.2s;  
+    transition: all 0.2s;  
+  }  
+  .triggeredHover {  
+    -moz-transform: rotate(360deg);  
+    -webkit-transform: rotate(360deg);  
+    -ms--transform: rotate(360deg);  
+    transform: rotate(360deg);  
+    -webkit-transition: all 0.2s;  
+    -moz-transition: all 0.2s;  
+    -o-transition: all 0.2s;  
+    -ms-transition: all 0.2s;  
+    transition: all 0.2s;  
+  }  
+  .social-circle i {  
+    color: #595959;  
+    -webkit-transition: all 0.8s;  
+    -moz-transition: all 0.8s;  
+    -o-transition: all 0.8s;  
+    -ms-transition: all 0.8s;  
+    transition: all 0.8s;  
+  }  
+  .social-network a {  
+    background-color: #F9F9F9;  
+  }  
+  .social-network a:hover {  
+  background: #ff304d;  
+  }  
+  .col-md-3{
+   padding-bottom: 6px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* CHANGING CSS */

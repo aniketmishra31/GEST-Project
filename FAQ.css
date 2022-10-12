@@ -1,0 +1,225 @@
+/* this is css for navbar */
+body{
+  background-color: #DFD3C3;
+}
+.first{
+    background-color: rgb(26, 24, 24);
+}
+.navbar-brand:hover {
+  color: #62ff00;
+  text-shadow:0px 0px 20px #67ff02;
+  opacity:500%;
+}
+  /* this is css for box */
+
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    position: relative;
+   
+  background-color: #513287;
+    /* Add the blur effect */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image:url("./FAQ_image.gif") ; 
+     /* background-position: 5000%;  */
+   
+     /* background-size: 60%; */
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+/* css for search bar*/
+
+
+
+.search {
+  width: 90%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 15px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  
+}
+.wrap{
+    margin-left: 9%;
+    margin-top: 15px;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 37px;
+  height: 37px;
+  border: 1px solid #21292b;
+  background: #262b2c;
+  
+  text-align: center;
+  color: rgb(116, 103, 103);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* fqa */
+
+.accordion {
+    background-color: rgba(255, 232, 23, 0.897);
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(152, 173, 166);
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: rgb(57, 10, 226);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    
+    
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(255, 255, 255);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 20px;
+  }
+
+  /* hr customization */
+  hr{
+ 
+    border: dotted rgb(255, 0, 0) 6px;
+    border-bottom: none;
+    width: 50%;
+    margin: 10px auto;
+}
+.accordion-style
+{
+  margin: 0 10%;
+  background-color: #fff;
+}
+p{
+  color:blueviolet;
+}
+/* this is css for image at footer*/
+
+
+.crop-pic{
+
+  width:12.5rem;
+  height:12.5rem;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+
+
+
+/*  this is footer css*/
+.footer-end{
+  background-color: #444;
+  color: #fff;
+  height: 200px;
+}
+
+/* social media handle*/
+.fa {
+  padding: 23px;
+  font-size: 40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #fa34cf;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.icon-social{
+  padding-top: 20px;
+  text-align: center;
+}
+.copywrite{
+  padding-top: 10px;
+  text-align: center;
+}

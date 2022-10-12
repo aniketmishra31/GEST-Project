@@ -1,0 +1,295 @@
+/* nav bar */
+
+/* nav bar */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("Browse_Image/giffy_2.gif");
+  
+  /* Add the blur effect */
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color:white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+/* shake image css start */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row1 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: #d3b635;
+  padding-bottom: 8px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+img:hover {
+  animation: shake 1.23s;
+  animation-iteration-count: infinite;
+}
+/* shake an image */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* shake an image */
+/* animation typing */
+.bit {
+  background-color: transparent;;
+  /* padding-top: 5em; */
+  display: flex;
+  justify-content: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: #fff;
+  /* padding-left: 400px; */
+  /* margin-right: 400px; */
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 1.75s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}                  
+/*                            <<             <<          footer         >>                >>                                     */
+footer h2 {  
+  padding: 25px 0;  
+  text-align: center;  
+  color: #fff;  
+  background: #7c8490;  
+  }  
+  footer {  
+   background: #EFD567;  
+    color: white;  
+    /* margin-top:10px; */
+    /* padding-top:10px ; */
+  }  
+  .centerfresh h4{
+   padding-left: 24px;
+  }
+  col-sm-6 h4 {
+    padding-left: 024px;
+  }
+  footer a {  
+    color: rgb(0, 0, 0);  
+    font-size: 14px;  
+    transition-duration: 0.2s;  
+  }  
+  footer a:hover {  
+    color: #FA944B;  
+    text-decoration: none;  
+  }  
+  .copy {  
+    font-size: 12px;  
+    padding: 10px;  
+    border-top: 1px solid #000000;  
+    padding-left: 42%;
+padding-right: 42.5%;
+   text-align: center;
+  }  
+  .footer-middle {  
+    padding-top: 2em;  
+    color: rgb(0, 0, 0);  
+  }  
+  ul.social-network {  
+    list-style: none;  
+    display: inline;  
+    margin-left: 0 !important;  
+    padding: 0;  
+  }  
+  ul.social-network li {  
+    display: inline;  
+    margin: 0 5px;  
+  }  
+    
+  .social-network a.icoFacebook:hover {  
+    background-color: #3B5998;  
+  }  
+  .social-network a.icoLinkedin:hover {  
+     background-color: #007bb7;  
+  } 
+  .social-network a.icoinstagram:hover {  
+     background-color: #b70080;  
+  } 
+  .social-network a.icotwiter:hover {  
+     background-color: #00acee;  
+  } 
+  .social-network a.icoFacebook:hover i  
+  {  
+    color: #fff;  
+  }  
+  .social-network a.icoLinkedin:hover i {  
+    color: #fff;  
+  }  
+  .social-network a.icoinstagram:hover i {  
+    color: #fff;  
+  }  
+  .social-network a.icotwiter:hover i {  
+    color: #fff;  
+  }  
+  .social-network a.socialIcon:hover {  
+    color: #44BCDD;  
+  }  
+  .socialHoverClass {  
+    color: #44BCDD;  
+  }  
+  .social-circle li a {  
+    display: inline-block;  
+    position: relative;  
+    margin: 0 auto 0 auto;  
+    -moz-border-radius: 50%;  
+    -webkit-border-radius: 50%;  
+    border-radius: 50%;  
+    text-align: center;  
+    width: 30px;  
+    height: 30px;  
+    font-size: 15px;  
+  }  
+  .social-circle li i {  
+    margin: 0;  
+    line-height: 30px;  
+    text-align: center;  
+  }  
+  .social-circle li a:hover i  
+  {  
+    -moz-transform: rotate(360deg);  
+    -webkit-transform: rotate(360deg);  
+    -ms--transform: rotate(360deg);  
+    transform: rotate(360deg);  
+    -webkit-transition: all 0.2s;  
+    -moz-transition: all 0.2s;  
+    -o-transition: all 0.2s;  
+    -ms-transition: all 0.2s;  
+    transition: all 0.2s;  
+  }  
+  .triggeredHover {  
+    -moz-transform: rotate(360deg);  
+    -webkit-transform: rotate(360deg);  
+    -ms--transform: rotate(360deg);  
+    transform: rotate(360deg);  
+    -webkit-transition: all 0.2s;  
+    -moz-transition: all 0.2s;  
+    -o-transition: all 0.2s;  
+    -ms-transition: all 0.2s;  
+    transition: all 0.2s;  
+  }  
+  .social-circle i {  
+    color: #595959;  
+    -webkit-transition: all 0.8s;  
+    -moz-transition: all 0.8s;  
+    -o-transition: all 0.8s;  
+    -ms-transition: all 0.8s;  
+    transition: all 0.8s;  
+  }  
+  .social-network a {  
+    background-color: #F9F9F9;  
+  }  
+  .social-network a:hover {  
+  background: #ff304d;  
+  }  
+  

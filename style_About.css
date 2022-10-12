@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .row{
+    background-color:#EFD567 ;
+  }
+  .column {
+    float: left;
+    width: 24.9%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: #d3b635;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    font-size: 200%;
+    background-color: #d3b635;
+    color: black;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: #8e369b;
+  }
+  .button a{
+    text-decoration: none;
+    color: black;
+  }
+  .button {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: #EFD567;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: rgba(184, 41, 184, 0.621);
+    
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .row1 {
+    margin-top: 0%;
+    background-color:black;
+    padding-bottom: 8px;
+    text-align: center;
+    color: white;
+  }
+  .copy {  
+    font-size: 12px;  
+    padding: 10px;  
+    border-top: 1px solid #000000;  
+    padding-left: 42%;
+padding-right: 42.5%;
+   text-align: center;
+  } 

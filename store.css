@@ -1,0 +1,35 @@
+.top-container
+{
+    background-color: #000;
+    margin-bottom: 0;
+    border-radius: 50%;
+    margin: 0 5%;
+}
+
+/* To target container games for padding and all */
+
+.games
+{
+    padding: 20% 5% 2%;
+    background-color: #000;
+    background-size: cover;
+}
+
+.game-card
+{
+    width: 23.625rem;
+    text-align: center;
+}
+.middle-container{
+    background-color: #000;
+}
+.games-second
+{
+    padding-top: 2%;
+}
+.game-text{
+    margin: 30% auto;
+}
+.gta{
+    margin-top: 37%;
+}
